@@ -34,4 +34,4 @@ if __name__ == '__main__':
 
     aggregated_results.show()
 
-    logger.info("this is the end of main")
+    logger.info("this is the end of main..")
