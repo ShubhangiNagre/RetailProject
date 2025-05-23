@@ -33,5 +33,4 @@ if __name__ == '__main__':
     aggregated_results = DataManipulation.count_order_state(joined_df)
 
     aggregated_results.show()
-
-    logger.info("this is the end of main.")
+    logger.info("this is the end of main..")
