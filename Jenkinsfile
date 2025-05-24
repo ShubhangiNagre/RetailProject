@@ -44,7 +44,7 @@ sh 'zip -r retailproject.zip . -x "retail_pipeline_venv/*"'
 }
 stage('Deploy') {
 steps {
-// Add deployment steps here (e.g., deploy to a server or cloud)
+// Add  deployment steps here (e.g., deploy to a server or cloud)
 sh 'sshpass -p $LABS_PSW scp -o StrictHostKeyChecking=no -r
 retailproject.zip $LABS_USR@g01.itversity.com:/home/itv017145/retailproject'
 }
