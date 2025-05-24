@@ -18,7 +18,7 @@ echo "package completed successfully"
 }
 stage('Deploy') {
 steps {
-echo "deploy completed successfully"
+echo "deploy  completed successfully"
 }
 }
 }
