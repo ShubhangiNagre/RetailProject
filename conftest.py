@@ -5,7 +5,7 @@ import pytest
 
 @pytest.fixture
 def spark():
-    "creates spark session"
+    "creates spark session..."
     spark_session = get_spark_session("LOCAL")
     yield spark_session
     spark_session.stop()
