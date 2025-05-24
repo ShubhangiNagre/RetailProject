@@ -46,7 +46,7 @@ stage('Deploy') {
 steps {
 // Add deployment steps here (e.g., deploy to a server or cloud)
 sh 'sshpass -p $LABS_PSW scp -o StrictHostKeyChecking=no -r
-RetailProject1.zip $LABS_USR@g01.itversity.com:/home/itv017145/retailproject1'
+RetailProject1.zip $LABS_USR@g01.itversity.com:/home/itv017145/RetailProject1'
 }
 }
 }
